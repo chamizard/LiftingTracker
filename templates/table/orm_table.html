@@ -1,0 +1,29 @@
+{% extends "index.html" %}
+
+{% block table %}
+<div class="container-fluid">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Exercise</th>
+                <th>Weight (lbs)</th>
+                <th>65% (lbs)</th>
+                <th>75% (lbs)</th>
+                <th>90% (lbs)</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-12">
+                <a class="btn btn-primary" href="/edit-table">Edit</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="static/js/orm_display.js"></script>
+{% endblock %}

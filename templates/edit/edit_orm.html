@@ -1,0 +1,33 @@
+{% extends "index.html" %}
+
+{% block edit %}
+<div class="container-fluid">
+    <div class="m-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">Date</div>
+                <div class="col-2">Exercise</div>
+                <div class="col-2">Weight (lbs)</div>
+                <div class="col-2">65% (lbs)</div>
+                <div class="col-2">75% (lbs)</div>
+                <div class="col-2">90% (lbs)</div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container text-center mt-5">
+        <div class="row">
+            <div class="col-2">
+                <a class="btn btn-primary" href="/">Back</a>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-secondary" id="save-button">Save</button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-secondary" id="addrow-button">Add Row +</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="static/js/orm_edit.js"></script>
+{% endblock %}
